@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kuis Sederhana</title>
+    	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    	<!-- Script -->
+	<script src="script2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Kuis Matematika</h1>
+
+        <!-- Pertanyaan 1 -->
+        <div class="question-container">
+            <p class="question">1. 539.547.750 : 25.846.375</p>
+            <label class="answer">
+                <input type="radio" name="q1" value="a">a) 20.87507555
+            </label>
+            <label class="answer">
+                <input type="radio" name="q1" value="b">b) 55.7684209
+            </label>
+            <!-- Kontainer untuk tampilan jawaban benar atau salah -->
+            <div class="feedback"></div>
+        </div>
+
+        <!-- Pertanyaan 2 -->
+        <div class="question-container">
+            <p class="question">2. 67.459 X 25.567 </p>
+            <label class="answer">
+                <input type="radio" name="q2" value="a">a) 2.704.724.453
+            </label>
+            <label class="answer">
+                <input type="radio" name="q2" value="b">b) 2.724.724.253
+            </label>
+            <!-- Kontainer untuk tampilan jawaban benar atau salah -->
+            <div class="feedback"></div>
+        </div>
+
+        <!-- Tombol "Selesai" -->
+        <input type="submit" id="submit" value="Selesai">
+
+        <!-- Hasil Kuis -->
+        <div id="results"></div>
+    </div>
+
+<div class="bottom-text" id="congratulations"style="display: none">
+    Yayy, kamu hebat! tapi ngerjainnya lama, yuu pakai kalkulator aja.
+</div>
+
+<body>
+	<button onclick="location.href='kalkulator.html'"> next </button>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    button {
+        position: absolute;
+        top: 20%;
+        right: 2px; /* Anda dapat menyesuaikan jarak dari pinggir kanan */
+        transform: translateY(-80%);
+        padding: 10px 5px;
+        background-color: #726a95;
+        border:2px solid #726a95;
+        color: whitesmoke;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+
+</html>
+

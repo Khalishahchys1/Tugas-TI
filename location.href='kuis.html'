@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kuis Sederhana</title>
+    	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    	<!-- Script -->
+	<script src="script2.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Kuis Matematika</h1>
+
+        <!-- Pertanyaan 1 -->
+        <div class="question-container">
+            <p class="question">1. Apa ibu kota Indonesia?</p>
+            <label class="answer">
+                <input type="radio" name="q1" value="a">a) Jakarta
+            </label>
+            <label class="answer">
+                <input type="radio" name="q1" value="b">b) Surabaya
+            </label>
+            <!-- Kontainer untuk tampilan jawaban benar atau salah -->
+            <div class="feedback"></div>
+        </div>
+
+        <!-- Pertanyaan 2 -->
+        <div class="question-container">
+            <p class="question">2. Apa ibu kota Prancis?</p>
+            <label class="answer">
+                <input type="radio" name="q2" value="a">a) Paris
+            </label>
+            <label class="answer">
+                <input type="radio" name="q2" value="b">b) Lyon
+            </label>
+            <!-- Kontainer untuk tampilan jawaban benar atau salah -->
+            <div class="feedback"></div>
+        </div>
+
+        <!-- Tombol "Selesai" -->
+        <input type="submit" id="submit" value="Selesai">
+
+        <!-- Hasil Kuis -->
+        <div id="results"></div>
+    </div>
+</body>
+</html>
+

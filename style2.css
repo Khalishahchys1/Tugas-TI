@@ -1,0 +1,89 @@
+/*untuk halaman kuis/
+	/* Gaya untuk body */
+body {
+    background: whitesmoke; /* Warna latar belakang */
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding:0; /*biar posisi di tengah*/
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Untuk mengisi tinggi layar penuh */
+    
+}
+
+/* Gaya untuk kontainer utama kuis */
+.container {
+    max-width: 2000px; /* Lebar maksimum kontainer yang diperluas */
+    margin: 0 auto;
+    padding: 20px;
+    background: #726a95; /* Warna latar belakang kontainer */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Bayangan kontainer */
+}
+
+/* Gaya untuk judul kuis */
+h1 {
+    text-align: center;
+    color: black; /* Warna teks judul */
+}
+
+/* Gaya untuk pertanyaan */
+.question {
+    margin: 20px 0;
+    font-size: 18px; /* Ukuran font pertanyaan */
+}
+
+/* Gaya untuk pilihan jawaban */
+.answer {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px; /* Ukuran font jawaban */
+}
+
+/* Gaya untuk tombol "Selesai" */
+#submit {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk hasil kuis */
+#results {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background: #fff; /* Warna latar belakang hasil kuis */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+/* Gaya untuk teks "Yayy, kamu hebat!" */
+.congratulations {
+    text-align: center; /* Untuk membuat teks berada di tengah */
+    margin-top: 20px auto; /* Jarak dari atas tombol "Selesai" */
+    color: black; /* Warna teks */
+    display: none; /* Tambahkan ini */
+    clear: both;
+}
