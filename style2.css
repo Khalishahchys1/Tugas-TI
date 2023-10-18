@@ -2,13 +2,13 @@
 	/* Gaya untuk body */
 body {
     background: whitesmoke; /* Warna latar belakang */
-    font-family: "Arial", sans-serif;
+    font-family: "viga";
     margin: 0;
     padding:0; /*biar posisi di tengah*/
     display: flex;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering */
-    height: 100vh; /* Untuk mengisi tinggi layar penuh */
+    height: 100vh; /* Untuk mengisi tinggi layar penuh sehingga tdk dapat di scroll lgi*/
     
 }
 
@@ -17,7 +17,7 @@ body {
     max-width: 2000px; /* Lebar maksimum kontainer yang diperluas */
     margin: 0 auto;
     padding: 20px;
-    background: #726a95; /* Warna latar belakang kontainer */
+    background: #F3CCFF; /* Warna latar belakang kontainer */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Bayangan kontainer */
 }
@@ -43,7 +43,7 @@ h1 {
 
 /* Gaya untuk tombol "Selesai" */
 #submit {
-    background-color: #007BFF;
+    background-color: #45CFDD;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -53,7 +53,7 @@ h1 {
 }
 
 #submit:hover {
-    background-color: #0056b3;
+    background-color: #A7EDE7;
 }
 
 /* Gaya untuk hasil kuis */

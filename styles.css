@@ -1,7 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: Viga;
+	font-family: "viga";
 }
 
 body {
@@ -63,6 +63,7 @@ body {
     box-sizing: border-box;
 }
 
+/*buat halaman pertama*/
 body{
     background-color: #eee;
     font-family: "Century Gothic";
