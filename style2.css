@@ -1,8 +1,11 @@
 /*untuk halaman kuis/
 	/* Gaya untuk body */
 body {
-    background: whitesmoke; /* Warna latar belakang */
-    font-family: "viga";
+    background-image: url('https://i.postimg.cc/59mssJfw/Whats-App-Image-2023-11-02-at-07-46-41-a23f166f.jpg'); /* Tambahkan URL gambar latar belakang */
+    background-size: cover; /* Mengatur ukuran gambar agar mengisi seluruh latar belakang */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    font-family: "Century Gothic";
+    font-weight: 600;
     margin: 0;
     padding:0; /*biar posisi di tengah*/
     display: flex;
@@ -17,7 +20,7 @@ body {
     max-width: 2000px; /* Lebar maksimum kontainer yang diperluas */
     margin: 0 auto;
     padding: 20px;
-    background: #F3CCFF; /* Warna latar belakang kontainer */
+    background: rgb(255, 255, 255, 0.5); /* Warna latar belakang kontainer dengan transparansi */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Bayangan kontainer */
 }
